@@ -1,0 +1,30 @@
+{
+  "author": "Corno",
+  "bugs": {
+    "url": "https://github.com/corno/pareto-https/issues"
+  },
+  "description": "",
+  "homepage": "https://github.com/corno/pareto-https#readme",
+  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "main": "./dist",
+  "types": "./dist",
+  "name": "pareto-https-lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/pareto-https.git"
+  },
+  "dependencies": {
+    "pareto-async-api": "^0.1.0",
+    "pareto-lang-lib": "^0.7.0"
+  },
+  "scripts": {},
+  "version": "0.1.0",
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  },
+  "content-fingerprint": "e827c415fdbc9af9b9ceaea4d1fd19ebff6ef75f"
+}
