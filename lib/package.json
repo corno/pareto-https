@@ -22,9 +22,9 @@
     "pareto-lang-lib": "^0.7.0"
   },
   "scripts": {},
-  "version": "0.1.0",
+  "version": "0.2.0",
   "devDependencies": {
     "@types/node": "^18.0.0"
   },
-  "content-fingerprint": "e827c415fdbc9af9b9ceaea4d1fd19ebff6ef75f"
+  "content-fingerprint": "6d856ed7d3fba0da6ffcd834afd3f15e6f721855"
 }
