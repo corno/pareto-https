@@ -22,7 +22,7 @@
     "pareto-lang-lib": "^0.7.0"
   },
   "scripts": {},
-  "version": "0.2.0",
+  "version": "0.3.0",
   "devDependencies": {
     "@types/node": "^18.0.0"
   },
