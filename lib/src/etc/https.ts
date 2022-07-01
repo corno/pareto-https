@@ -1,12 +1,12 @@
 import * as https from "https"
 import * as asyncAPI from "pareto-async-api"
 
-export function createLeafHTTPSCaller<T>(
+export function call<T>(
     hostname: string,
     path: string,
     onData: (data: string) => void,
     onError: (e: Error) => void,
-    onEnd: () => T
+    onEnd: () => asyncAPI.IAsync<T>
 ): asyncAPI.IAsync<T> {
     return {
         execute: (cb) => {
@@ -20,12 +20,13 @@ export function createLeafHTTPSCaller<T>(
             const req = https.request(options, res => {
                 //console.log(`statusCode: ${res.statusCode}`)
 
-
                 res.on('data', d => {
                     onData(d)
                 })
                 res.on('end', () => {
-                    cb(onEnd())
+                    onEnd().execute((v) => {
+                        cb(v)
+                    })
                 })
             })
 
