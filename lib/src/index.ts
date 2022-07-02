@@ -1,9 +1,7 @@
-import { API } from "./api";
 import { call } from "./etc/https";
+import * as api from "pareto-https-api"
 
-export * from "./etc/https"
-
-export function init(): API {
+export function init(): api.API {
     return {
         call: call
     }
