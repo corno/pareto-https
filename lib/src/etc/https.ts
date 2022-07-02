@@ -5,7 +5,7 @@ export function call<T>(
     hostname: string,
     path: string,
     onData: (data: string) => void,
-    onError: (e: Error) => void,
+    onError: (e: null) => void,
     onEnd: () => asyncAPI.IAsync<T>
 ): asyncAPI.IAsync<T> {
     return {
@@ -31,7 +31,8 @@ export function call<T>(
             })
 
             req.on('error', error => {
-                onError(error)
+                console.error("FIX ERROR DATA")
+                onError(null)
             })
 
             req.end()
