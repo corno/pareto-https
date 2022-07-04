@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "pareto-async-api": "^0.6.0",
-    "pareto-https-api": "^0.2.0",
+    "pareto-https-api": "^0.3.0",
     "pareto-lang-lib": "^0.8.0"
   },
   "version": "0.5.0",
@@ -26,5 +26,5 @@
     "@types/node": "^18.0.1"
   },
   "native": true,
-  "content-fingerprint": "f49ae94cc7e83320f11736e78c6c1d580aa23705"
+  "content-fingerprint": "b28e9dc946788e2cd6a249337376a3d9ba09f620"
 }
