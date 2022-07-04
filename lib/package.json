@@ -21,7 +21,7 @@
     "pareto-https-api": "^0.3.0",
     "pareto-lang-lib": "^0.8.0"
   },
-  "version": "0.5.0",
+  "version": "0.6.0",
   "devDependencies": {
     "@types/node": "^18.0.1"
   },
