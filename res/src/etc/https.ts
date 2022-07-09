@@ -1,13 +1,13 @@
 import * as https from "https"
-import * as pl from "pareto-lib-core"
+import * as pa from "pareto-api-core"
 
 export function call<T>(
     hostname: string,
     path: string,
     onData: (data: string) => void,
     onError: (e: null) => void,
-    onEnd: () => pl.IAsync<T>
-): pl.IAsync<T> {
+    onEnd: () => pa.IAsync<T>
+): pa.IAsync<T> {
     return {
         execute: (cb) => {
             const options = {
