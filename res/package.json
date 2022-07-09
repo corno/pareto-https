@@ -11,7 +11,7 @@
   ],
   "license": "ISC",
   "main": "./dist",
-  "name": "pareto-https-lib",
+  "name": "pareto-https-res",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/corno/pareto-https.git"
@@ -19,12 +19,12 @@
   "dependencies": {
     "pareto-async-api": "^0.8.0",
     "pareto-https-api": "^0.4.0",
-    "pareto-lang-lib": "^0.8.0"
+    "pareto-lib-core": "^0.1.0"
   },
   "version": "0.7.0",
   "devDependencies": {
     "@types/node": "^18.0.3"
   },
   "native": true,
-  "content-fingerprint": "2a132c78b46cae79a32e2a32314a905031bcf339"
+  "content-fingerprint": "813ced419a0e4fb594365128134fe1b935de744e"
 }

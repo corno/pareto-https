@@ -23,6 +23,8 @@ then
     fi
 fi
 
+#never copy for '../res'
+
 parts=("bin" "test")
 for part in "${parts[@]}"
 do
